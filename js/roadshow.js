@@ -83,7 +83,7 @@ async function getUserProfile() {
   sessionStorage.setItem("LinePicture", profile.pictureUrl);
   //str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile" width="100px"></div>';
   str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="profile-team1"></div>';
-  str += '<div class="NameLine" style="margin-top:6px; color:#f58b1f;">'+ sessionStorage.getItem("LineName")+'</div>';
+  str += '<div class="NameLine" style="margin-top:6px; color:#f68b1f;">'+ sessionStorage.getItem("LineName")+'</div>';
   $("#MyProfile").html(str);  
   $("#MyProfile1").html(str);  
   Connect_DB();
