@@ -60,7 +60,7 @@ $(document).ready(function () {
 
 
 async function main() {
-  await liff.init({ liffId: "1656865573-oOG66mOA" });
+  await liff.init({ liffId: "1657509542-Yzw1VKvp" });
   document.getElementById("isLoggedIn").append(liff.isLoggedIn());
   if(liff.isLoggedIn()) {
     getUserProfile();
